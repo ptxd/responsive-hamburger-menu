@@ -1,32 +1,33 @@
+body{
+    cursor:pointer;
+}
+
 /*Start of header styling*/
 header{
     position: fixed;
     width: 100%;
     height: 60px;;
-    background-color: rgba(0,0,0, 0.35);
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    align-content: stretch;
+    background-color: rgba(48,0,0, 0.15);
 }
 
 /*Hamburger Menu*/
 .left-side .menu-button{
     margin:-5px;
+    height:60px;
 }
-
 
 .menu-item{
     list-style-type: none;
-    margin-top:45px;
+    margin-top:15px;
     width:200px;
     height:200px;
+    color:white;
 }
 
 .menu-item .well{
-    background-color:lightgray;
+    margin-left:29px;
+    background-color: rgba(48,0,0, 0.15);
+    border-color:  rgba(48,0,0, 0.15);
 }
 
 .hamburger1
@@ -40,6 +41,7 @@ header{
     border:none;
     position:absolute;
 }
+
 .hamburger1 div {
     height: 5px;
     background: #fff;
@@ -86,21 +88,15 @@ header{
 
 .left-side{
     height: inherit;
-    width: 15%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-
+    max-width: 25%;
+    float:left;
 }
 
 .right-side{
         height: inherit;
         border:none;
-        color:red;
         display: flex;
+        float:right;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
